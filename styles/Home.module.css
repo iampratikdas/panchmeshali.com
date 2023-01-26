@@ -107,6 +107,21 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+.nav_styling {
+  list-style-type: none ;
+  color: red;
+  display: flex;
+  justify-content: center;
+  /* padding: 50px; */
+}
+.nav_styling_inner {
+  margin-left: 10px;
+}
+.div_nav_styling {
+  display: flex;
+  justify-content: center;
+  border: solid;
+}
 
 @media (max-width: 600px) {
   .grid {
