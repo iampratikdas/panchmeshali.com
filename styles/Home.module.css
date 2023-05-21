@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -38,6 +38,8 @@
 .title a:active {
   text-decoration: underline;
 }
+
+
 
 .title {
   margin: 0;
@@ -112,15 +114,19 @@
   color: red;
   display: flex;
   justify-content: center;
+  text-decoration: none;
+  margin-top: 9px;
   /* padding: 50px; */
 }
 .nav_styling_inner {
+  text-decoration: none;
   margin-left: 10px;
 }
 .div_nav_styling {
   display: flex;
   justify-content: center;
-  border: solid;
+  width: 97vw;
+  /* border: solid 1px; */
 }
 
 @media (max-width: 600px) {
@@ -142,3 +148,6 @@
     filter: invert(1);
   }
 }
+
+
+

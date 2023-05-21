@@ -1,0 +1,47 @@
+.aTag{
+    color:#000000;
+    text-decoration:none;
+  }
+  .aTag a:hover,
+  .aTag a:focus,
+  .aTag a:active {
+    text-decoration: underline;
+  }
+
+
+.headingText{
+    color:rgb(93, 0, 255);
+}
+.navDiv{
+    /* position: relative; */
+    width: 100vw;
+    background-color: rgb(232, 238, 238);
+    box-shadow: -1px 0px 16px grey;
+}
+.imgClass{
+    width:50vw;
+    height:90vh;
+}
+.textDiv{
+    padding:80px;
+}
+
+.flexDiv {
+     display:flex;
+     align-items:center;
+     justify-content: center;
+     flex-direction: row;
+     border: solid red;
+     padding: 20px;
+  }
+
+@media (max-width: 800px) {
+    .flexDiv {
+      flex-direction: column;
+      width:100vw;
+    }
+    .imgClass {
+        width: 97vw;
+        height: 69vh;
+    }
+  }
